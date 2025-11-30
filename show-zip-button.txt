@@ -1,0 +1,11 @@
+﻿// Show Download ZIP button after generation
+document.getElementById('btn-generate').addEventListener('click', async function() {
+    // ... existing code runs ...
+    // After successful generation, show the button
+    setTimeout(() => {
+        const btnZip = document.getElementById('btn-download-zip');
+        if (btnZip \u0026\u0026 currentGeneratedCode) {
+            btnZip.style.display = 'block';
+        }
+    }, 100);
+});

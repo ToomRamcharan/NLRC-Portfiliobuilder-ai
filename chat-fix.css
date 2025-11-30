@@ -1,0 +1,9 @@
+﻿/* Make chat panel full-screen */
+#panel-edit {
+    padding: 0 !important;
+    gap: 0 !important;
+}
+
+#panel-edit .chat-container {
+    height: 100%;
+}
